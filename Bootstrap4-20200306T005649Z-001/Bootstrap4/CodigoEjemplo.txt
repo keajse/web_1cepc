@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Cuatro</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+
+    <header class="container">
+        <div class="row">
+
+            <!--DATO A TENER EN CUENTAal utilizar .col-sm-12 es una columna que abarca toda la pagina, si se emplea .col-sm-6 será la mitad -->
+
+            <!-- Etiqueta a redirecciona -->
+
+            <div class="col-sm-12 my-4">
+                <a href="index.html">
+                    <img src="/img/logo.png" alt="logo" class="logo">  
+                </a>  
+                
+                <!-- La clase "text-uppercase" pasa todo el texto a mayúscula -->
+    
+                <h1 class="text-uppercase">Landing Page</h1>
+            </div>   
+           
+       
+            <!-- Clase "img-fluid" hace que la imagen se adapte al tamaño de la página -->
+
+            <div class="col-sm-6">
+                <img src="/img/right-laptop.png" class="img-fluid">
+            </div>
+
+            <!-- placeholder= "Permite poner un texto sobrepuesto dentro de un input, caja de texto, que una vez se de clic desaparece el texto para ingresar los datos solicitados" -->
+
+            <!-- La clase rounded-0 quita los bordes redondos -->
+
+            <!-- text-center: Clase para centrar -->
+
+            <div class="col-sm-6 text-center">
+            
+                <p>Todo lo puedo en Aquel que me fortalece, porque me ha dado la gracia necesaria para llevar a cabo la misión que me ha encomendado.</p>
+
+                <form action="">
+                    <input type="text" class="form-control rounded-0 my-4 text-center" placeholder="Write your email">
+
+                    <button class="btn btn-light btn btn-outline-light rounded-0">
+                        SUBSCRIBE
+                    </button>
+                </form>
+                <ul>
+                    <li>
+                        <a href="">
+                            <i class="fab fa-facebook-f"></i>
+
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+
+
+        </div>
+
+         
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+Los par▒metros de la l▒nea de comandos son incorrectos.
+
+La sintaxis de este comando es:
+
+CMDKEY [{/add | /generic}:nombre del destino {/smartcard | /user:usuario
+{/pass{:contrase▒a}}} | /delete{:destino | /ras} | /list{:destino}]
+
+Ejemplos:
+
+  Para mostrar la lista de credenciales disponibles:
+     cmdkey /list
+     cmdkey /list:destino
+
+  Para crear credenciales de dominio:
+     cmdkey /add:destino /user:usuario /pass:contrase▒a
+     cmdkey /add:destino /user:usuario /pass
+     cmdkey /add:destino /user:usuario
+     cmdkey /add:destino /smartcard
+
+  Para crear credenciales gen▒ricas:
+     El modificador /add puede reemplazarse por /generic para crear
+     credenciales gen▒ricas
+
+  Para eliminar credenciales existentes:
+     cmdkey /delete:destino
+
+  Para eliminar credenciales RAS:
+     cmdkey /delete /ras
+
