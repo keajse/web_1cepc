@@ -3,8 +3,20 @@ function validate() {
     
     let password = document.getElementById('password').value;
 
-    alert('Datos: ' + email + " "+ password)
+    // alert('Datos: ' + email + " "+ password)
 
-    return false;
+    // return false;
+
+    if (email != "" && password != "") 
+    {
+        return true;
+        
+    }
+    else
+    {
+        alert("Debe llenar los campos")
+        return false;
+    }
+    
 }
 
